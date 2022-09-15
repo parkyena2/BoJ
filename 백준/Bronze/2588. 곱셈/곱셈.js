@@ -1,11 +1,3 @@
-/*
-두 값을 받는다
-두 값을 정수로 변환
-곱하는 수를 자릿수로 분리
-곱해지는 수를 자릿수로 곱해서 한 줄씩 출력
-출력했던 수에 10의 n승을 곱해 모두 더해 출력
-*/
-
 const fs = require('fs');
 const input = fs.readFileSync('/dev/stdin', 'utf8').split('\n');
 
