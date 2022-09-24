@@ -42,22 +42,19 @@ int main() {
 }
 
 void push(int data) {
-    tos++;
-    stack[tos] = data;
+    stack[++tos] = data;
 }
 
 void pop() {
     if (tos == -1)
         printf("-1\n");
     else {
-        printf("%d\n", stack[tos]);
-        tos--;
+        printf("%d\n", stack[tos--]);
     }
 }
 
 void size() {
-    int size = tos + 1;
-    printf("%d\n", size);
+    printf("%d\n", tos + 1);
 }
 
 void empty() {
