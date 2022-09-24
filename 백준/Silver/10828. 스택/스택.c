@@ -28,13 +28,13 @@ int main() {
             scanf("%d", &data);
             push(data);
         }
-        if (strcmp(command, "pop") == 0)
+        else if (strcmp(command, "pop") == 0)
             pop();
-        if (strcmp(command, "size") == 0)
+        else if (strcmp(command, "size") == 0)
             size();
-        if (strcmp(command, "empty") == 0)
+        else if (strcmp(command, "empty") == 0)
             empty();
-        if (strcmp(command, "top") == 0)
+        else if (strcmp(command, "top") == 0)
             top();
 
         n--;
